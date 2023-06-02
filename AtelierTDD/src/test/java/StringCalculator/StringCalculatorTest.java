@@ -1,0 +1,5 @@
+package StringCalculator;
+
+class StringCalculatorTest {
+
+}

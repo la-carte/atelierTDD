@@ -14,6 +14,13 @@ class FizzBuzzSolutionTest {
 	}
 
 	@Test
+	void push_Fizz_default_value_test() {
+		Assertions.assertEquals("7", fizzBuzz.push(7));
+		Assertions.assertEquals("31", fizzBuzz.push(31));
+		Assertions.assertEquals("832", fizzBuzz.push(832));
+	}
+
+	@Test
 	void push_Fizz_test() {
 		Assertions.assertEquals("Fizz", fizzBuzz.push(3));
 		Assertions.assertEquals("Fizz", fizzBuzz.push(72));

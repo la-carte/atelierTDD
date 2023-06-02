@@ -15,7 +15,7 @@ public class StringCalculator {
 	//				1.1 - "1" -> 1
 	//				1.2 - "2,6" -> 8
 	//				1.3 - "" -> 0
-	public int Add(String numbers){
+	public int Add(String numbers) throws Exception {
 		return 0;
 	}
 

@@ -4,19 +4,35 @@ public class FizzBuzz {
 
 	// TODO:
 	//  Ecrire les test pour la class FizzBuzz
+	//  Énoncé :
+	//  		Ecrire une fonction qui prend en entrée un int et retourne une String
+	//  		Si c'est un multiple de 3 -> Fizz
+	//  		Si c'est un multiple de 5 -> Buzz
+	//  		Si c'est un multiple de 3 ET 5 -> FizzBuzz
+	//  		Sinon retourner le nombre en entrée
 	//  Rappel: D'abord écrire un test
 	//				Faire passé le test en Vert avec le moins de ligne possible
 	//				Faire du Refacto -> vérifier que les tests sont toujours Vert
+
 //	public String push(int input){
 //		return null;
 //	}
 
+	//Todo
+	// Hint :
+	// Etape 1 : Retourner seulement le nombre en entrée
+	// Etape 2 : Ajouter la condition sur le multiple de 3
+	// Etape 3 : Ajouter la condition sur le multiple de 5
+	// Etape 4 : Et pour finir ajouter la condition sur les multiple de 3 ET 5
+
 	public String push(int input){
-		String r = "";
+		String r = "" ;
 		if(input % 3 == 0)
-			r += "Fizz";
+			r = "Fizz";
 		if(input % 5 == 0)
 			r += "Buzz";
+		if(r.isEmpty())
+			r = String.valueOf(input);
 		return r;
 	}
 
