@@ -1,5 +1,9 @@
 package StringCalculator;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.regex.Pattern;
+
 public class StringCalculator {
 
 	// TODO:
@@ -15,8 +19,25 @@ public class StringCalculator {
 	//				1.1 - "1" -> 1
 	//				1.2 - "2,6" -> 8
 	//				1.3 - "" -> 0
-	public int Add(String numbers) throws Exception {
-		return 0;
+	public int add(String numbers) throws Exception {
+		int val = 0;
+		if(numbers.isEmpty()) {
+			return val;
+		}
+		String delimiter = ",";
+		if(numbers.startsWith("//")){
+			delimiter = (numbers.split("\n")[0].replace("//",""));
+			numbers = numbers.split("\n")[1];
+		}
+
+		if (numbers.endsWith(delimiter)){
+			throw new Exception("tzreasazd");
+		}
+
+		for (String chiffre: numbers.split(delimiter)) {
+			val += Integer.parseInt(chiffre);
+		}
+		return val;
 	}
 
 
