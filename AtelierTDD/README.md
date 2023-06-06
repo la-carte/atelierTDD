@@ -14,6 +14,11 @@ Recommencer l'implémentation d'une solution mais cette fois si en appliquant le
 Passez au 2eme énoncé,
 Implémenter la fonction Add de la classe StringCalculator étape par étape en appliquant bien le **TDD**
 
+### Etape 4 : 
+Vous y trouverez une fonction déjà implementé. 
+Avec un code de très mauvaise qualité et des tests presque inexistant.
+Le but est d'appliqué du TDD sur du code existant.
+
 ## "Solution"
 Le package Solution est juste un exemple d'implémentation, et le test peut permettre de vérifier si notre 
 code marche bien. Il n'est en aucun cas une réponse finale et unique. 
@@ -35,3 +40,9 @@ code marche bien. Il n'est en aucun cas une réponse finale et unique.
    - la nomenclature : variable, fonction, classe
    - simplifier le code et l'algorithmique
    - supprimer les répétitions de code
+
+
+
+## Source:
+ - https://blog.engineering.publicissapient.fr/2011/12/23/peut-on-faire-du-tdd-sur-du-code-existant/
+ - https://tddmanifesto.com/
