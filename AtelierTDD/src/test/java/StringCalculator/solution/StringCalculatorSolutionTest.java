@@ -34,6 +34,7 @@ class StringCalculatorSolutionTest {
 	void Add_test_string_new_line_separateur() throws Exception {
 		Assertions.assertEquals(9, stringCalculator.add("1\n8"));
 		Assertions.assertEquals(11, stringCalculator.add("8\n3"));
+		Assertions.assertEquals(12, stringCalculator.add("8,1\n3"));
 	}
 
 
