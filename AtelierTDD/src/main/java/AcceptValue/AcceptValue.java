@@ -17,8 +17,11 @@ public class AcceptValue {
 	// 	Ici on ne traite pas tous les cas de lettre majuscule, on va remédier à ça
 	// étape 5*:
 	// 	faire du refacto si cela  est nécessaire
+	// Optionnelle:
+	// 	étape 6:
+	// 		Ecrire un test pour tous les cas d'écriture de '1' -> true  , '0' -> false
 
-	public Boolean TorF(String v){
+	public Boolean asBoolean(String v){
 		if(v == "yes"){
 			return true;
 		}

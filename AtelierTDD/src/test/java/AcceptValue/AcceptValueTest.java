@@ -11,6 +11,8 @@ class AcceptValueTest {
 
 	@Test
 	void test() {
-		Assertions.assertTrue(false);
+
+		Assertions.assertEquals(new AcceptValue().asBoolean("yes"), true);
+		Assertions.assertEquals(new AcceptValue().asBoolean("no"), false);
 	}
 }

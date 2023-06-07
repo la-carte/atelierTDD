@@ -14,7 +14,7 @@ Recommencer l'implémentation d'une solution mais cette fois si en appliquant le
 Passez au 2eme énoncé,
 Implémenter la fonction Add de la classe StringCalculator étape par étape en appliquant bien le **TDD**
 
-### Etape 4 : 
+### Etape 4 (Optionnelle):
 Vous y trouverez une fonction déjà implementé. 
 Avec un code de très mauvaise qualité et des tests presque inexistant.
 Le but est d'appliqué du TDD sur du code existant.

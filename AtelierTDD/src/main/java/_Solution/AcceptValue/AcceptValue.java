@@ -1,22 +1,24 @@
 package _Solution.AcceptValue;
 
-import java.util.Arrays;
-import java.util.Locale;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AcceptValue {
-	private static final String[] listValeurAccepted = {"true","yes"};
-	private static final String[] listValeurRejected = {"false","no"};
 
-	public Boolean acceptedValue(String valeur){
-		if(valeur == null) {
-			return null;
+	private Map<String, Boolean> boolFlag = new HashMap<String, Boolean>() {
+		{
+			put("no", false);
+			put("yes", true);
+			put("off", false);
+			put("on", true);
+			put("start", true);
+			put("stop", false);
 		}
-		valeur = valeur.toLowerCase();
-		if (Arrays.asList(listValeurAccepted).contains(valeur)){
-			return true;
-		}
-		if (Arrays.asList(listValeurRejected).contains(valeur)){
-			return false;
+	};
+
+	public Boolean asBoolean(String flag) {
+		if (boolFlag.containsKey(flag)) {
+			return boolFlag.get(flag);
 		}
 		return null;
 	}

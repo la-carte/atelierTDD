@@ -10,12 +10,12 @@ class AcceptValueSolutionTest {
 	void test() {
 		AcceptValue acceptValue = new AcceptValue();
 
-		Assertions.assertEquals(acceptValue.TorF("yes"), true);
-		Assertions.assertEquals(acceptValue.TorF("yEs"), true);
-		Assertions.assertEquals(acceptValue.TorF("yeS"), true);
-		Assertions.assertEquals(acceptValue.TorF("TrUe"), true);
-		Assertions.assertEquals(acceptValue.TorF("no"), false);
-		Assertions.assertEquals(acceptValue.TorF("faLSE"), false);
-		Assertions.assertEquals(acceptValue.TorF("fALsE"), false);
+		Assertions.assertEquals(acceptValue.asBoolean("yes"), true);
+		Assertions.assertEquals(acceptValue.asBoolean("yEs"), true);
+		Assertions.assertEquals(acceptValue.asBoolean("yeS"), true);
+		Assertions.assertEquals(acceptValue.asBoolean("TrUe"), true);
+		Assertions.assertEquals(acceptValue.asBoolean("no"), false);
+		Assertions.assertEquals(acceptValue.asBoolean("faLSE"), false);
+		Assertions.assertEquals(acceptValue.asBoolean("fALsE"), false);
 	}
 }
