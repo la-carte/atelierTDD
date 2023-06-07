@@ -1,6 +1,5 @@
 package StringCalculator;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.Pattern;
 
@@ -8,36 +7,19 @@ public class StringCalculator {
 
 	// TODO:
 	//  Rappel: D'abord écrire un test
-	//				Faire passé le test en Vert avec le moins de ligne possible
-	//				Faire du Refacto -> vérifier que les tests sont toujours Vert
-
+	//				Faire passer le test en Vert avec le moins de lignes possible
+	//				Faire du Refacto -> vérifier que les tests sont toujours Verts
 
 	//TODO:
-	// Exo: Récuperer en entrée une string contenant des chiffres séparé par un separateur.
-	//		  Retourne la somme de tout les chiffres avec un int (Sauf contre indication)
-	// Etape 1 : La methode ne peux prendre que maximume 2 chiffres séparé par une vigule
+	// Exo: Récuperer en entrée une string contenant des chiffres séparé par un séparateur.
+	//		  Retourne la somme de touts les chiffres avec un int (Sauf contre indication)
+	// Etape 1 : La méthode ne peut prendre que maximum 2 chiffres séparés par une virgule
 	//				1.1 - "1" -> 1
 	//				1.2 - "2,6" -> 8
 	//				1.3 - "" -> 0
+
 	public int add(String numbers) throws Exception {
-		int val = 0;
-		if(numbers.isEmpty()) {
-			return val;
-		}
-		String delimiter = ",";
-		if(numbers.startsWith("//")){
-			delimiter = (numbers.split("\n")[0].replace("//",""));
-			numbers = numbers.split("\n")[1];
-		}
-
-		if (numbers.endsWith(delimiter)){
-			throw new Exception("tzreasazd");
-		}
-
-		for (String chiffre: numbers.split(delimiter)) {
-			val += Integer.parseInt(chiffre);
-		}
-		return val;
+		return 0;
 	}
 
 

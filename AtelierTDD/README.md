@@ -5,7 +5,7 @@ Il va y avoir deux énoncés différents *FizzBuzz* et *StringCalculator*.
 
 ### Etape 1 : 
 Commencer par FizzBuzz et implémenter le code une solution le plus rapidement possible. (plus c'est moche, mieux c'est)
-Lancer la classe de Test du dossier Solution pour vérifier notre code (**SANS regarder l'implémentation du test**)  
+Lancer la classe de Test du dossier _Solution pour vérifier notre code (**SANS regarder l'implémentation du test**)  
 
 ### Etape 2 : 
 Recommencer l'implémentation d'une solution mais cette fois si en appliquant le **TDD**
@@ -19,8 +19,8 @@ Vous y trouverez une fonction déjà implementé.
 Avec un code de très mauvaise qualité et des tests presque inexistant.
 Le but est d'appliqué du TDD sur du code existant.
 
-## "Solution"
-Le package Solution est juste un exemple d'implémentation, et le test peut permettre de vérifier si notre 
+## "_Solution"
+Le package _Solution est juste un exemple d'implémentation, et le test peut permettre de vérifier si notre 
 code marche bien. Il n'est en aucun cas une réponse finale et unique. 
 
 
