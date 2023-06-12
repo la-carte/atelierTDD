@@ -11,19 +11,32 @@ public class StringCalculator {
 	//				Faire du Refacto -> vérifier que les tests sont toujours Verts
 
 	//TODO:
-	// Exo: Récuperer en entrée une string contenant des chiffres séparé par un séparateur.
-	//		  Retourne la somme de touts les chiffres avec un int (Sauf contre indication)
-	// Etape 1 : La méthode ne peut prendre que maximum 2 chiffres séparés par une virgule
-	//				1.1 - "1" -> 1
-	//				1.2 - "2,6" -> 8
-	//				1.3 - "" -> 0
+	// Enoncé :
+	//		Récuperer en entrée une string contenant des chiffres séparé par un séparateur.(par défaut un ',')
+	//		Retourne la somme de touts les chiffres avec un int (Sauf contre indication)
+	// 	Pour définit un séparateur personalisé :
+	//		"//[séparateur]\n[chiffres]" -> exemple -> "//ok\n3ok3" -> 6
+	//    	Si il y a un autre séparateur, que celui définit : thow exception avec message : 'CustomSéparateur'expected but ',' found at position 3
+	//    Interdire le séparteur en fin de ligne -> throw exception
+
+	// Premier exo:
+	// 	reponde à l'énoncé le plus rapidemnt possible
 
 	public int add(String numbers) throws Exception {
 		return 0;
 	}
 
 
+
+
+
 	//TODO:
+	// Exo 2 : Récuperer en entrée une string contenant des chiffres séparé par un séparateur.
+	//		  Retourne la somme de touts les chiffres avec un int (Sauf contre indication)
+	// Etape 1 : La méthode ne peut prendre que maximum 2 chiffres séparés par une virgule
+	//				1.1 - "1" -> 1
+	//				1.2 - "2,6" -> 8
+	//				1.3 - "" -> 0
 	// Etape 2 : Permetre un nombre infini de chiffres en entrée
 	// Etape 3 : Accepter comme sepateur en plus de la virgule, le retour à la ligne
 	//				- "1,2\n3" -> 6

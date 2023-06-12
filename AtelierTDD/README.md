@@ -1,17 +1,17 @@
 # Atelier d'initiation au TDD: Test Driven Development 
 
 ## Organisation de l'atelier 
-Il va y avoir deux énoncés différents *FizzBuzz* et *StringCalculator*.
+Il va y avoir deux énoncés différents *FizzBuzz*,*StringCalculator* et un bonus *AcceptValue*.
 
 ### Etape 1 : 
-Commencer par FizzBuzz et implémenter le code une solution le plus rapidement possible. (plus c'est moche, mieux c'est)
-Lancer la classe de Test du dossier _Solution pour vérifier notre code (**SANS regarder l'implémentation du test**)  
+Commencer par FizzBuzz en appliquant le **TDD** 
 
 ### Etape 2 : 
-Recommencer l'implémentation d'une solution mais cette fois si en appliquant le **TDD**
-
-### Etape 3 : 
 Passez au 2eme énoncé,
+StringCalculator et implémenter le code avec une solution le plus rapidement possible. (plus c'est moche, mieux c'est :)
+Lancer la classe de Test du dossier _Solution pour vérifier notre code (**SANS regarder l'implémentation du test**)
+
+### Etape 3 :
 Implémenter la fonction Add de la classe StringCalculator étape par étape en appliquant bien le **TDD**
 
 ### Etape 4 (Optionnelle):

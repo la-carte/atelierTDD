@@ -23,15 +23,19 @@ public class StringCalculator {
 			 .orElseThrow(RuntimeException::new);
 	}
 
-	private String[] getSplit(String string, String delemiter) throws Exception {
-		if (string.startsWith("//")) {
-			String[] split = string.split("\n");
-			string = split[1];
+	private String[] getSplit(String numbers, String delemiter) throws Exception {
+		if (numbers.startsWith("//")) {
+			String[] split = numbers.split("\n");
+			numbers = split[1];
 		}
-		if (Pattern.compile(".*" + delemiter + "$").matcher(string).find()) {
+		checkNoDelemiterAtEnd(delemiter, numbers);
+		return numbers.split(delemiter);
+	}
+
+	private void checkNoDelemiterAtEnd(String delemiter, String numbers) throws Exception{
+		if (Pattern.compile(".*" + delemiter + "$").matcher(numbers).find()) {
 			throw new Exception("cant have a delemiter at end");
 		}
-		return string.split(delemiter);
 	}
 
 	private void haveOtherDelemiter(String[] listOfNumber, String delemiter, String initialNumbers) throws Exception {
