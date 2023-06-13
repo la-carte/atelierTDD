@@ -5,12 +5,9 @@ import java.util.regex.Pattern;
 
 public class StringCalculator {
 
-	// TODO:
-	//  Rappel: D'abord écrire un test
-	//				Faire passer le test en Vert avec le moins de lignes possible
-	//				Faire du Refacto -> vérifier que les tests sont toujours Verts
-
 	//TODO:
+	// Premier exo:
+	// 	reponde à l'énoncé le plus rapidemnt possible
 	// Enoncé :
 	//		Récuperer en entrée une string contenant des chiffres séparé par un séparateur.(par défaut un ',')
 	//		Retourne la somme de touts les chiffres avec un int (Sauf contre indication)
@@ -19,16 +16,16 @@ public class StringCalculator {
 	//    	Si il y a un autre séparateur, que celui définit : thow exception avec message : 'CustomSéparateur'expected but ',' found at position 3
 	//    Interdire le séparteur en fin de ligne -> throw exception
 
-	// Premier exo:
-	// 	reponde à l'énoncé le plus rapidemnt possible
 
 	public int add(String numbers) throws Exception {
 		return 0;
 	}
 
 
-
-
+	// TODO:
+	//  Rappel: D'abord écrire un test
+	//				Faire passer le test en Vert avec le moins de lignes possible
+	//				Faire du Refacto -> vérifier que les tests sont toujours Verts
 
 	//TODO:
 	// Exo 2 : Récuperer en entrée une string contenant des chiffres séparé par un séparateur.
